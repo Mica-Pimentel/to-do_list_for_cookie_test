@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Minha primeira lista de tarefas!</h1>
+
+    <div>
+      <input
+        type="text"
+        name="inseri-tarefa"
+        id="inseri-tarefa"
+        placeholder="Digite sua tarefa"
+      />
+      <div id="botao" onclick=" adicionar_tarefas()">Adicionar</div>
+    </div>
+    <div id="listas">
+      <ul id="lista-tarefas"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
